@@ -7,7 +7,8 @@
     "start": "node ./bin/www.js",
     "dev": "nodemon -r dotenv/config ./bin/www.js",
     "db:createphrases": "node -r dotenv/config ./database/scripts/phrases/createTable.js",
-    "db:populatephrases": "node -r dotenv/config ./database/scripts/phrases/populateTable.js"
+    "db:populatephrases": "node -r dotenv/config ./database/scripts/phrases/populateTable.js",
+    "db:dropphrases": "node -r dotenv/config ./database/scripts/phrases/dropTable.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
